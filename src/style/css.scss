@@ -1,0 +1,74 @@
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.clearfix {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+.float-right {
+  float: right;
+}
+.btn-header-list {
+  position: relative;
+  line-height: 45px;
+  margin-bottom: 20px;
+  .item {
+    display: inline-block;
+    .label {
+      display: inline-block;
+      margin-right: 10px;
+    }
+    .content {
+      display: inline-block;
+      margin-right: 10px;
+    }
+  }
+}
+//修改password右边图标的颜色
+.ant-input-password-icon, .ant-input-password-icon:hover {
+  color: rgba(255, 255, 255, 0.45);
+}
+.login {
+  .ant-input-affix-wrapper:focus, .ant-input-affix-wrapper-focused {
+    box-shadow: none !important;
+  }
+}
+
+.login {
+  .ant-input {
+    background-color: transparent !important;
+    padding: 11px 11px;
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 0.65);
+    box-shadow: none !important;
+  }
+  .ant-input {
+  }
+  .ant-input-affix-wrapper {
+    // 输入框样式
+    background-color: transparent !important;
+    padding: 11px 11px;
+    border: 1px solid rgba(0, 192, 255, 0.6) !important;
+    border-radius: 4px;
+  }
+  .ant-input-affix-wrapper input {
+    background-color: transparent !important;
+    color: rgba(255, 255, 255, 0.65);
+  }
+  .site-form-item-icon {
+    color: rgba(255, 255, 255, 0.45);
+  }
+//input自动填充时的样式
+  input:-internal-autofill-previewed,
+  input:-internal-autofill-selected {
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.45) !important;
+    transition: background-color 5000s ease-in-out 0s !important;
+  }
+}
+
+.mr10 {
+  margin-right: 10px;
+}

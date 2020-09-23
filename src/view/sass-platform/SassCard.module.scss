@@ -1,0 +1,28 @@
+.system-card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.desktop-card {
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  background-image: var(--logo), url("../../assets/images/sass-platform/card-bg.png");
+  &:hover {
+    background-image: var(--logoActive), url("../../assets/images/sass-platform/card-bg-active.png");
+    color: #5FB8FE;
+    cursor: pointer;
+  }
+  background-size: 60px 60px, 100%;
+  background-position: center 40% ,center;
+  background-repeat: no-repeat;
+  /*padding: 80px 150px;*/
+  width: 400px;
+  height: 280px;
+}
+.desktop-name {
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 180px;
+}

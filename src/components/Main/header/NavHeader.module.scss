@@ -1,0 +1,67 @@
+.container {
+  box-shadow: 0 1px 4px rgba(0, 21, 41, .08);
+
+  .navbar{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid rgba(0, 21, 41, .06);
+  }
+
+  .collapsed-icon {
+    font-size: 24px;
+    margin-left: 20px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .breadcrumb {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  .right-menu{
+    float: right;
+    margin-right: 20px;
+
+    a {
+      color: #606266;
+      height: 100%;
+      display: inline-block;
+      padding: 0 4px;
+
+       &:hover {
+         background-color: rgba(90, 94, 102, .045);
+         cursor: pointer;
+       }
+    }
+
+    Button {
+      margin-left: 20px;
+    }
+  }
+
+  .tag-view {
+    width: calc(100% - 30px);
+    height: 32px;
+    line-height: 28px;
+    margin: 0 15px;
+    white-space: nowrap;
+    overflow-x: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    &:hover {
+      cursor: default;
+    }
+    Tag {
+      margin-right: 5px;
+    }
+  }
+  .tags {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #d8dce5;
+  }
+
+}

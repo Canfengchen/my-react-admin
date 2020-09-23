@@ -1,0 +1,33 @@
+.container {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/images/sass-platform/desktop-bg.png");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  color: #ffffff;
+  overflow-y: scroll;
+}
+
+.main {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate3d(-50%, 0, 0);
+  width: 100%;
+}
+
+.system-title {
+  font-family:Source Han Sans SC;
+  text-align: center;
+  font-size: 36px;
+  width: 450px;
+  font-weight: bold;
+  padding: 20px 0;
+  /*position: relative;*/
+  background-image: url("../../assets/images/sass-platform/desktop-title.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto 60px;
+}
